@@ -1,0 +1,8 @@
+--- STEAMODDED HEADER
+--- MOD_NAME: HidePlayed
+--- MOD_ID: hideplayed
+--- PREFIX: hideplayed
+--- MOD_AUTHOR: [OceanRamen]
+--- MOD_DESCRIPTION: Hides played cards from the deck Viewer!
+--- VERSION: 1.0.0
+--- LOADER_VERSION_GEQ: 1.0.0
