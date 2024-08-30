@@ -28,17 +28,7 @@ if
 then
   greyed = true
 end
-if S.SETTINGS.modules.deckviewer_plus.enabled and S.SETTINGS.modules.deckviewer_plus.features.hide_played_cards then
-  if not greyed then
-    card_count = card_count + 1
-    local copy = copy_card(SUITS[suit_map[j]][i], nil, _scale)
-    copy.greyed = greyed
-    copy.T.x = view_deck.T.x + view_deck.T.w / 2
-    copy.T.y = view_deck.T.y
-    copy:hard_set_T()
-    view_deck:emplace(copy)
-  end
-else
+if not greyed then
   card_count = card_count + 1
   local copy = copy_card(SUITS[suit_map[j]][i], nil, _scale)
   copy.greyed = greyed
